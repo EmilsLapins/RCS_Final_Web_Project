@@ -1,0 +1,31 @@
+.carousel-inner {
+    height: 600px;
+    width: 1000px;
+   
+}
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
+.card-columns{
+    padding-top: 25px;
+    padding-bottom: 50px;
+    
+}
+
+.navbar  {
+    
+    margin-bottom: 10px;
+
+}
+.card-group{
+    margin-top: 20px;
+}
+.card{
+     
+    padding: 0px;
+    font-size: 10px;
+    height: 180px;
+}
