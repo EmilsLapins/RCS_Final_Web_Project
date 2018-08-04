@@ -1,6 +1,8 @@
+
+
 .carousel-inner {
-    height: 600px;
-    width: 1000px;
+    height: auto;
+    width: auto;
    
 }
 .carousel-item.active,
@@ -27,5 +29,17 @@
      
     padding: 0px;
     font-size: 10px;
-    height: 180px;
+    height: auto;
+}
+.breadcrumb {
+    margin-bottom: 10px;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+.img-thumbnail {
+    width: 100%;
+    height: auto;
 }
