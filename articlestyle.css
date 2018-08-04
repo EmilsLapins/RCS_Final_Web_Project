@@ -1,0 +1,26 @@
+
+.navbar  {
+    
+    margin-bottom: 10px;
+
+}
+.breadcrumb {
+    margin-bottom: 10px;
+}
+.img-thumbnail {
+    height: 100px;
+    width:100px;
+}
+
+.row {
+    margin-left: auto;
+}
+
+h5{
+    margin-left: 20px;
+    
+}
+.title{
+    padding: 5px;
+    
+}
