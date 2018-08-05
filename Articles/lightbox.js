@@ -13,3 +13,10 @@ $(document).on('click', '[data-toggle="lightbox2"]', function(event){
     
 
 });
+
+$(document).on('click', '[data-toggle="lightbox3"]', function(event){
+    event.preventDefault();
+    $(this).ekkoLightbox();
+    
+
+});
