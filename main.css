@@ -39,11 +39,14 @@
     margin-bottom: 10px;
 }
 
-#reg_form{
-    padding-left: 2%;
-    padding-right: 50%;
-}
+
 #reg_title{
     margin-bottom: 4%;
     padding-top: 2%;
+}
+
+#signup_form{
+    padding-left: 2%;
+    padding-right: 50%;
+    padding-bottom: 2%;
 }
