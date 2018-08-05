@@ -13,7 +13,7 @@
 }
 
 .row {
-    margin-left: auto;
+    padding-left: 10px;
 }
 
 h5{
@@ -23,4 +23,19 @@ h5{
 .title{
     padding: 5px;
     
+}
+#instagram{
+    margin-left: 10px;;
+}
+
+.mainimg {
+    max-width:100%;
+    max-height:200px; 
+    object-fit: contain;
+    
+}
+
+#mainimage{
+    padding: 10px;
+    object-fit: contain;
 }
