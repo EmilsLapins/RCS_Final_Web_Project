@@ -6,11 +6,11 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   
+
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
         crossorigin="anonymous">
-        <link href="../main.css" rel="stylesheet" type="text/css">
+    <link href="../main.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -71,23 +71,27 @@
                 </div>
                 <div class="form-group">
                     <label for="pwd">First name:</label>
-                    <input type="text" class="form-control" id="fn" placeholder="First name:" name="firstN" required>
+                    <input type="text" class="form-control" id="firstN" placeholder="First name:" name="firstN" required>
                 </div>
                 <div class="form-group">
                     <label for="pwd">Last name:</label>
-                    <input type="text" class="form-control" id="ln" placeholder="Last name:" name="lastN" required>
+                    <input type="text" class="form-control" id="lastN" placeholder="Last name:" name="lastN" required>
                 </div>
                 <div class="form-group">
                     <label for="pwd">Country:</label>
-                    <input type="text" class="form-control" id="cntry" placeholder="Country:" name="country" required>
+                    <input type="text" class="form-control" id="country" placeholder="Country:" name="country" required>
                 </div>
-
 
                 <div class="checkbox">
-                    <label>
-                        <input type="checkbox" name="remember"> <span>By creating an account you agree to our <a href="#">Terms & Privacy</a></span> </label>
+
+                    <input type="checkbox" id="checkbox1" name="checkbox1" required>
+                    <label for="checkbox1">By creating an account you agree to our
+                        <a href="#">Terms &#38; Privacy</a>
+                    </label>
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
+                <div class="button">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </div>
             </form>
 
         </div>
@@ -112,7 +116,7 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    
+
 </body>
 
 </html>
