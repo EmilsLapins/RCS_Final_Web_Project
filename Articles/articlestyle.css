@@ -34,24 +34,26 @@ h5{
 
 .mainimg {
    height: 200px;
-   width: 70%;
+   width: 90%;
     object-fit: cover;
     object-position: 100% 0;
    
     
     
 }
-.blackborder{
-    border: 3px;
-    border-style: solid;
-    border-color : black;
-}
+
 
 #mainimage{
     margin: 5%;
     width: 100%;
+    padding-right: 5%;
     
-    
+}
+
+.blackborder{
+    border: 3px;
+    border-style: solid;
+    border-color : black;
 }
 .art_text{
     padding-left: 5%;
