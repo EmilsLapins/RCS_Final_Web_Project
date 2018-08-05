@@ -17,7 +17,7 @@ function validatePassword() {
         }
     });
     if (validator.form()) {
-        alert('Sucess');
+        
     }
 }
 
