@@ -1,13 +1,12 @@
-var misrc = "";
-var mihref = "";
+
 
 $(document).on('click', '[data-toggle="lightbox"]', function(event){
     event.preventDefault();
     $(this).ekkoLightbox();
     var a = $(this).attr("href");
-    console.log($(this).attr("href"));
-    misrc = $(".mainimg").attr("src", a);
-    mihref = $(".mainimg").attr("href", a);
+    
+     $(".mainimg").attr("src", a);
+     $(".mainimg").attr("href", a);
     
 
 });
@@ -17,7 +16,7 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event){
 $(document).on('click', '[data-toggle="lightbox3"]', function(event){
     event.preventDefault();
     $(this).ekkoLightbox();
-    console.log($(this).attr("href"));
+   
 
 });
 
