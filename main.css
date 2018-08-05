@@ -40,6 +40,10 @@
 }
 
 #reg_form{
-    margin-right: 50%;
-    margin-top: 5%;
+    padding-left: 2%;
+    padding-right: 50%;
+}
+#reg_title{
+    margin-bottom: 5%;
+
 }
