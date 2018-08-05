@@ -4,14 +4,21 @@ function validatePassword() {
             password: "required",
             confirmpassword: {
                 equalTo: "#password"
-            }
+            },
+            password: {
+                required: true,
+                minlength: 8
+              }
+              
         },
         messages: {
-            password: " Enter Password",
-            confirmpassword: " Enter Confirm Password Same as Password"
+            password: "Password too short",
+            confirmpassword: " Passwords don't match!"
         }
     });
     if (validator.form()) {
         alert('Sucess');
     }
 }
+
+// https://jqueryvalidation.org/reference/ saved me
