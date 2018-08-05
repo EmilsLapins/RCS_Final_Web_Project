@@ -7,3 +7,9 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event){
 
 });
 
+$(document).on('click', '[data-toggle="lightbox2"]', function(event){
+    event.preventDefault();
+    $(this).ekkoLightbox();
+    
+
+});
