@@ -38,16 +38,16 @@ h5{
     object-fit: cover;
     object-position: 100% 0;
 
-    border: 3px;
-    border-style: solid;
-    border-color: black;
+    
     
 }
 
 #mainimage{
-    padding: 5%;
+    margin: 5%;
     width: 100%;
-    
+    border: 3px;
+    border-style: solid;
+    border-color : black;
     
 }
 .art_text{
