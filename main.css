@@ -50,3 +50,23 @@
     padding-right: 50%;
     padding-bottom: 2%;
 }
+
+.nav-pills{
+    padding-left: 1%;
+}
+#home.tab-pane.container.active{
+    padding-left: 0%;
+}
+.tab-pane.container.active{
+    padding-left: 0%;
+}
+
+#map-here {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#contacts{
+    padding-left: 1%;
+}
+
