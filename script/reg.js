@@ -20,5 +20,5 @@ function validatePassword() {
         alert('Sucess');
     }
 }
-
+// selects using name
 // https://jqueryvalidation.org/reference/ saved me

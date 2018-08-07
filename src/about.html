@@ -10,7 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
         crossorigin="anonymous">
-    <link href="../main.css" rel="stylesheet" type="text/css">
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
     <title>Abous us</title>
 </head>
 
@@ -21,19 +21,19 @@
             <nav class="navbar navbar-expand-sm bg-light navbar-light">
 
                 <a class="navbar-brand" href="#">
-                    <img src="../blacksq.gif" width="30" height="30" class="d-inline-block align-top" alt=""> RCS Homework
+                    <img src="../pics/blacksq.gif" width="30" height="30" class="d-inline-block align-top" alt=""> RCS Homework
                 </a>
 
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home</a>
+                        <a class="nav-link" href="../src/index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../articles.html">Articles</a>
+                        <a class="nav-link" href="../src/articles.html">Articles</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link " href="../registration/registration.html">Register</a>
+                        <a class="nav-link " href="../src/registration.html">Register</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link " href="#">About us</a>
@@ -44,7 +44,7 @@
 
         <div>
             <nav class="breadcrumb bg-light">
-                <a class="breadcrumb-item" href="../index.html">Home</a>
+                <a class="breadcrumb-item" href="../src/index.html">Home</a>
                 <span class="breadcrumb-item active">Registration</span>
             </nav>
         </div>
@@ -73,11 +73,11 @@
                     <div class="row">
                         <div class="col-2">
 
-                            <img src="../blacksq.gif" class="img-fluid img-thumbnail" alt="">
+                            <img src="../pics/blacksq.gif" class="img-fluid img-thumbnail" alt="">
                         </div>
                         <div class="col-10">
                             <h5>
-                                <a href="../Articles/article1.html">Article 1</a>
+                                <a href="../src/article1.html">Article 1</a>
                             </h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos consequatur exercitationem
                                 magnam temporibus, placeat eum eaque mollitia corrupti fugit quam ipsum qui recusandae voluptates
@@ -99,11 +99,11 @@
                     <div class="row">
                         <div class="col-2">
 
-                            <img src="../blacksq.gif" class="img-fluid img-thumbnail" alt="">
+                            <img src="../pics/blacksq.gif" class="img-fluid img-thumbnail" alt="">
                         </div>
                         <div class="col-10">
                             <h5>
-                                <a href="../Articles/article1.html">Article 1</a>
+                                <a href="../src/article1.html">Article 1</a>
                             </h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos consequatur exercitationem
                                 magnam temporibus, placeat eum eaque mollitia corrupti fugit quam ipsum qui recusandae voluptates
@@ -124,11 +124,11 @@
                     <div class="row">
                         <div class="col-2">
 
-                            <img src="../blacksq.gif" class="img-fluid img-thumbnail" alt="">
+                            <img src="../pics/blacksq.gif" class="img-fluid img-thumbnail" alt="">
                         </div>
                         <div class="col-10">
                             <h5>
-                                <a href="../Articles/article1.html">Article 1</a>
+                                <a href="../src/article1.html">Article 1</a>
                             </h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos consequatur exercitationem
                                 magnam temporibus, placeat eum eaque mollitia corrupti fugit quam ipsum qui recusandae voluptates
@@ -147,13 +147,14 @@
                 <div class="articles-list bg-light">
 
                     <div class="row">
-                        <div class="col-sm-2">
-
-                            <img src="../blacksq.gif" class="img-fluid img-thumbnail" alt="">
+                        <div class="col-md-2">
+                            <div >
+                                <img src="../pics/blacksq.gif" id="articlesbox" class="img-fluid img-thumbnail" alt="">
+                            </div>
                         </div>
-                        <div class="col-sm-10">
+                        <div class="col-md-10">
                             <h5>
-                                <a href="../Articles/article1.html">Article 1</a>
+                                <a href="../src/article1.html">Article 1</a>
                             </h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos consequatur exercitationem
                                 magnam temporibus, placeat eum eaque mollitia corrupti fugit quam ipsum qui recusandae voluptates
@@ -171,14 +172,16 @@
         <h3 id="contacts" class="bg-light">Contacts</h3>
 
         <div id="map-here" class="row bg-light">
-           
-            <div class="col-6">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d868.6398764168844!2d-80.57783104320728!3d28.56197587281937!2m3!1f5.088887490341627e-14!2f0!3f0!3m2!1i1024!2i768!4f35!5e1!3m2!1sen!2sus!4v1533587806679" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-        
+
+            <div class="col-md-6">
+                <div class="embed-responsive-item embed-responsive-4by3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d868.6398764168844!2d-80.57783104320728!3d28.56197587281937!2m3!1f5.088887490341627e-14!2f0!3f0!3m2!1i1024!2i768!4f35!5e1!3m2!1sen!2sus!4v1533587806679"
+                        width="310" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
             </div>
 
 
-            <div class="col-6">
+            <div class="col-md-6">
                 <div>
                     <h4>Address:</h4>
                     <p>Space street 3, Mars</p>
@@ -209,8 +212,7 @@
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
